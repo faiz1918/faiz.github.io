@@ -1,0 +1,84 @@
+.myTable {
+  border: 1px solid grey;
+  width: 100%;
+  border-collapse: collapse;
+  font-family: faizFont2, Helvetica, sans-serif;
+  /* font-weight: bold; */
+}
+
+@font-face {
+    font-family: faizFont1;
+    src: url(fonts/RubikMaps-Regular.ttf);
+}
+
+@font-face {
+    font-family: faizFont2;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: faizFont3;
+    src: url(./fonts/Roboto-Italic.ttf);
+}
+
+.myTable th, .myTable td {
+    border: 4px solid #d3d3d3;
+}
+
+.myTable tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+.myTable thead tr {
+    background-color: green;
+    color: white;
+}
+
+.myTable tbody tr:hover {
+    background-color: #dbdbdb;
+}
+
+
+
+.list-style {
+    list-style-type: circle;
+}
+
+.list-style li {
+    display: inline-block;
+    padding: 1rem;
+    color: white;
+}
+
+#menu-nav .menu-link {
+    color: white;
+    text-decoration: none;
+}
+
+#menu-nav .menu-link:hover {
+    color: #f3f3f3;
+    /* text-decoration: underline; */
+}
+
+.c-label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.basic-Form {
+    padding: 1rem;
+    width: 100%;
+}
+
+.c-form-input {
+    width: 100%;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
